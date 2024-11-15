@@ -11,7 +11,7 @@ namespace Tyuiu.AidemirAF.Sprint4.Task0.V13.Lib
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 2 == 0)
-                c++;
+                c += array[i];
             }
         return c;
         }
