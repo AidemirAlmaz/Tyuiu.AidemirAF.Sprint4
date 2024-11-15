@@ -45,9 +45,10 @@ namespace Tyuiu.AidemirAF.Sprint4.Task5.V23
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    Console.WriteLine(matrix[i, j] +"\t");
+                    Console.Write(matrix[i, j] +"\t");
                 }
             }
+            Console.WriteLine();
             Console.ReadKey();
         }
     }
